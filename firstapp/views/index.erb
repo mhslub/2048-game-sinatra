@@ -1,0 +1,36 @@
+<script src="/keypress.js"></script>
+<h1>Rich 2048 tile!</h1>
+<h1>Status: <%= @msg%>,  Score: <%=@sc%></h1>
+<table cellspacing="0" cellpadding="0">	
+	<tr>
+		<% (0..3).each do |elem|%>
+		<td width= "100", height="100", align="center", bgcolor=<%= @ary[elem].color%>>		
+			<%= @ary[elem].text%>		
+		</td>
+		<%end%>
+	</tr>
+	<tr>
+		<% (4..7).each do |elem|%>
+		<td width= "100", height="100", align="center", bgcolor=<%= @ary[elem].color%>>	
+			<%= @ary[elem].text%>			
+		</td>
+		<%end%>
+	</tr>
+	<tr>
+		<% (8..11).each do |elem|%>
+		<td width= "100", height="100", align="center", bgcolor=<%= @ary[elem].color%>>	
+			<%= @ary[elem].text%>			
+		</td>
+		<%end%>
+	</tr>
+	<tr>
+		<% (12..15).each do |elem|%>
+		<td width= "100", height="100", align="center", bgcolor=<%= @ary[elem].color%>>	
+			<%= @ary[elem].text%>			
+		</td>
+		<%end%>
+	</tr>	
+</table>	
+<h1><%= @alr%></h1>
+	
+		

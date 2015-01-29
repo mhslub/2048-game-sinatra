@@ -1,0 +1,15 @@
+body {
+    background-color: #efefef;
+}
+
+table {
+    margin: 10px;
+    border-collapse: separate;
+    border-spacing: 0px;
+}
+
+td {
+    border-radius: 5px;
+    color: white;
+    border: 5px solid white;
+}​
